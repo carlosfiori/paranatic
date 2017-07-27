@@ -28,7 +28,7 @@
                     EXTRATO</a>
             </div>
             <div>
-                <a href="/compras"><i class="fa fa-clock-o" aria-hidden="true"></i> HISTORICO</a>
+                <a href="/economias"><i class="fa fa-money" aria-hidden="true"></i> ECONOMIAS</a>
             </div>
         </div>
     </footer>
@@ -63,20 +63,26 @@
         }
     </style>
 
-    <div class="alert alert-parana">
-        <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
-        <strong>Novo Parceiro</strong> Temos um novo parceiro, Burger King.
+    <div class="row" style="margin-top: 30px">
+        <div class="col-xs-12">
+
+            <div class="alert alert-parana">
+                <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+                <strong>Novo Parceiro</strong> Temos um novo parceiro, Burger King.
+            </div>
+
+            <div class="alert alert-parana">
+                <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+                <strong>Pico!</strong> Horario de pico começa as 20 Horas.
+            </div>
+
+            <div class="alert alert-parana">
+                <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+                <strong>Atenção</strong> Você tem pontos para trocar.
+            </div>
+        </div>
     </div>
 
-    <div class="alert alert-parana">
-        <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
-        <strong>Pico!</strong> Horario de pico começa as 20 Horas.
-    </div>
-
-    <div class="alert alert-parana">
-        <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
-        <strong>Atenção</strong> Você tem pontos para trocar.
-    </div>
 @endsection
 
 @section('fim-pagina')

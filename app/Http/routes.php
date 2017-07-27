@@ -15,6 +15,7 @@
 
 
 Route::get('/', 'PrincipalController@index');
+Route::get('/system', 'PrincipalController@system');
 
 
 Route::get('/parceiros', 'EmpresasController@index');
@@ -23,3 +24,4 @@ Route::post('/novo', 'NovoController@store');
 
 
 Route::get('/extrato', 'ExtratoController@index');
+Route::get('/economias', 'RelatoriosController@index');

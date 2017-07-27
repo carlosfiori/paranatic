@@ -51,6 +51,11 @@
             .skin-blue .wrapper, .skin-blue .main-sidebar, .skin-blue .left-side {
                 /*background-color: #008d43;*/
             }
+
+            .content {
+                padding: 0;
+
+            }
         </style>
     </head>
 
@@ -94,17 +99,17 @@
 
             <div class="content-wrapper" style="background: #008d43;">
 
-                <section class="content-header">
+                <section class="content-header" style="padding-top: 0">
                     @yield('titulomenor')
                 </section>
                 @yield('valortotal')
 
                 <section class="content">
-                    <div class="row">
-                        <section class="col-md-12">
+                    {{--<div class="row">--}}
+                        {{--<section class="col-md-12">--}}
                             @yield('content')
-                        </section>
-                    </div>
+                        {{--</section>--}}
+                    {{--</div>--}}
                 </section>
 
             </div>
