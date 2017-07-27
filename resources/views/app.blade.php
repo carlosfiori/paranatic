@@ -51,17 +51,17 @@
 		    <section class="sidebar">
 
 		      
-		      <ul class="sidebar-menu" data-widget="tree">
+		      <ul class="sidebar-menu">
 				<li class="treeview">
 					<a href="#">
 						<i class="fa fa-dashboard"></i> <span>Principal</span>
 					</a>
 				</li>
 		      </ul>
-		       <ul class="sidebar-menu" data-widget="tree">
+		       <ul class="sidebar-menu">
 				<li class="treeview">
 					<a href="{{url('/empresas')}}">
-						<i class="fa fa-dashboard"></i> <span>Empresas</span>
+						<i href="{{url('/empresas')}}" class="fa fa-dashboard"></i> <span>Empresas</span>
 					</a>
 				</li>
 		      </ul>

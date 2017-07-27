@@ -25,19 +25,19 @@
 	                
 	                <tr>
 	                  <td>Maio</td>
-	                  <td><span class="badge bg-red">20</span></td>
+	                  <td><span class="badge bg-green">20</span></td>
 	                </tr>
 	                <tr>
 	                  <td>Junho</td>
-	                  <td><span class="badge bg-red">20</span></td>
+	                  <td><span class="badge bg-red">-20</span></td>
 	                </tr>
 	                <tr>
 	                  <td>Julho</td>
-	                  <td><span class="badge bg-red">20</span></td>
+	                  <td><span class="badge bg-green">200</span></td>
 	                </tr>
 	                <tr>
 	                  <td>Agosto</td>
-	                  <td><span class="badge bg-red">20</span></td>
+	                  <td><span class="badge bg-green">100</span></td>
 	                </tr>
 
                
@@ -54,10 +54,8 @@
 
 
 @section('valortotal')
-	<footer class="main-footer">
-		<div class="pull-right hidden-xs">
-		  <b>R$D</b> 240
-		</div>
+	<footer class="main-footer" style="text-align: center; padding: 0px;">
+		  <b>R$D</b> <i style="font-size: 40px">300</i>
 	</footer>
 @endsection
 
