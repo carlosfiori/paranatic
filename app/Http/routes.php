@@ -16,17 +16,12 @@
 
 Route::get('/', 'PrincipalController@index');
 
-Route::group(['prefix' => 'system'], function () {
 
-    Route::get('/', 'PrincipalController@system');
-
-
-    Route::get('/parceiros', 'EmpresasController@index');
-    Route::get('/novo', 'NovoController@create');
-    Route::post('/novo', 'NovoController@store');
+Route::get('/parceiros', 'EmpresasController@index');
+Route::get('/novo', 'NovoController@create');
+Route::post('/novo', 'NovoController@store');
 
 
-    Route::get('/extrato', 'ExtratoController@index');
-    Route::get('/economias', 'RelatoriosController@index');
-    Route::get('/bonus', 'BonusController@index');
-});
+Route::get('/extrato', 'ExtratoController@index');
+Route::get('/economias', 'RelatoriosController@index');
+Route::get('/bonus', 'BonusController@index');

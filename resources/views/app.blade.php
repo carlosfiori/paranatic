@@ -69,7 +69,7 @@
 
             <header class="main-header">
 
-                <a href="{{ url('/system/') }}" class="logo">
+                <a href="{{ url('/') }}" class="logo">
                     <span class="logo-lg"><b>Economia</b>PARANÁ</span>
                 </a>
 
@@ -86,14 +86,14 @@
 
                     <ul class="sidebar-menu">
                         <li class="treeview">
-                            <a href="/system/">
+                            <a href="/">
                                 <i class="fa fa-dashboard"></i> <span>Principal</span>
                             </a>
                         </li>
                     </ul>
                     <ul class="sidebar-menu">
                         <li class="treeview">
-                            <a href="{{url('/system/parceiros')}}">
+                            <a href="{{url('/parceiros')}}">
                                 <i class="fa fa-handshake-o"></i> <span>Parceiros</span>
                             </a>
                         </li>
@@ -101,7 +101,7 @@
 
                     <ul class="sidebar-menu">
                         <li class="treeview">
-                            <a href="{{url('/system/extrato')}}">
+                            <a href="{{url('/extrato')}}">
                                 <i class="fa fa-history"></i> <span>Extrato</span>
                             </a>
                         </li>
@@ -109,14 +109,14 @@
 
                     <ul class="sidebar-menu">
                         <li class="treeview">
-                            <a href="{{url('/system/economias')}}">
+                            <a href="{{url('/economias')}}">
                                 <i class="fa fa-money"></i> <span>Economias</span>
                             </a>
                         </li>
                     </ul>
                     <ul class="sidebar-menu">
                         <li class="treeview">
-                            <a href="{{url('/system/bonus')}}">
+                            <a href="{{url('/bonus')}}">
                                 <i class="fa fa-gift"></i> <span>Sorteios e Bônus</span>
                             </a>
                         </li>

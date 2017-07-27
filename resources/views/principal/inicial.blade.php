@@ -27,12 +27,12 @@
                 <hr style="margin: 0 0 5px;">
                 <div class="flex-saldo">
                     <div>
-                        <a href="/system/extrato">
+                        <a href="/extrato">
                             <i class="fa fa-history" aria-hidden="true"></i>
                             EXTRATO</a>
                     </div>
                     <div>
-                        <a href="/system/economias"><i class="fa fa-money" aria-hidden="true"></i> ECONOMIAS</a>
+                        <a href="/economias"><i class="fa fa-money" aria-hidden="true"></i> ECONOMIAS</a>
                     </div>
                 </div>
             </footer>
@@ -94,7 +94,7 @@
 
 @section('fim-pagina')
     <div class="novo-btn">
-        <a style="" href="/system/novo">
+        <a style="" href="/novo">
 
             <span class="fa-stack ">
                   <i class="fa fa-circle fa-stack-2x" style="color: #00a65a;"></i>
