@@ -18,3 +18,5 @@ Route::get('/', 'PrincipalController@index');
 
 
 Route::get('/parceiros', 'EmpresasController@index');
+Route::get('/novo', 'NovoController@create');
+Route::post('/novo', 'NovoController@store');

@@ -1,100 +1,113 @@
 <!DOCTYPE html>
-<html>
-	<head>
-		<meta charset="utf-8">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<title>@yield('titulopagina')</title>
-		<meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
-		<link rel="stylesheet" href="{{ asset('css/bootstrap/dist/css/bootstrap.min.css') }}">
-		<link rel="stylesheet" href="{{ asset('/css/font-awesome.min.css') }}">
-		<link rel="stylesheet" href="{{ asset('/css/AdminLTE.min.css') }}">
-		<link rel="stylesheet" href="{{ asset('/css/skins/_all-skins.min.css') }}"> 
-		<link rel="stylesheet" href="{{ asset('/css/dataTables.bootstrap.min.css') }}"> 
-		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic">
+<html style="background-color: #008d43">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>@yield('titulopagina')</title>
+        <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+        <link rel="stylesheet" href="{{ asset('css/bootstrap/dist/css/bootstrap.min.css') }}">
+        <link rel="stylesheet" href="{{ asset('/css/font-awesome.min.css') }}">
+        <link rel="stylesheet" href="{{ asset('/css/AdminLTE.min.css') }}">
+        <link rel="stylesheet" href="{{ asset('/css/skins/_all-skins.min.css') }}">
+        <link rel="stylesheet" href="{{ asset('/css/dataTables.bootstrap.min.css') }}">
+        {{--<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic">--}}
 
-		
+        <script src="{{ asset('/js/jquery-3.2.1.min.js') }}"></script>
+        <script src="{{ asset('/js/bootstrap.min.js') }}"></script>
+        <script type="text/javascript" src="{{ asset('/js/funcoes.js') }}"></script>
+        <script src="{{ asset('/js/jquery-ui.min.js') }}"></script>
+        <script src="{{ asset('/js/jquery.dataTables.min.js') }}"></script>
+        <script src="{{ asset('/js/dataTables.bootstrap.min.js') }}"></script>
 
+        <script src="{{ asset('/js/adminlte.min.js') }}"></script>
 
-		<script src="{{ asset('/js/jquery-3.2.1.min.js') }}"></script>
-		<script src="{{ asset('/js/bootstrap.min.js') }}"></script>
-		<script type="text/javascript" src="{{ asset('/js/funcoes.js') }}"></script>
-		<script src="{{ asset('/js/jquery-ui.min.js') }}"></script>
-		<script src="{{ asset('/js/jquery.dataTables.min.js') }}"></script>
-		<script src="{{ asset('/js/dataTables.bootstrap.min.js') }}"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.6.0/Chart.bundle.min.js"></script>
 
-		<script src="{{ asset('/js/adminlte.min.js') }}"></script>
+        {{--<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">--}}
+        <link href="https://fonts.googleapis.com/css?family=Artifika|Roboto+Condensed" rel="stylesheet">
+        <style>
+            * {
+                /*font-family: 'Roboto', sans-serif;*/
+                font-family: 'Roboto Condensed', sans-serif;
+            }
 
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.6.0/Chart.bundle.min.js"></script>
+            .skin-blue .main-header .logo:hover {
+                background-color: #008d43 !important;
+            }
 
+            .skin-blue .main-header .logo {
+                background-color: #008d43 !important;
 
-		
-	</head>
+            }
 
-	<body class="hold-transition skin-blue sidebar-mini">
-		<div class="wrapper">
+            .skin-blue .main-header .navbar {
+                background-color: #00a65a;
+            }
 
-		  <header class="main-header">
-		    
-		    <a href="{{ url('/') }}" class="logo">
-		      <span class="logo-lg"><b>Admin</b>LTE</span>
-		    </a>
-		    
-		    <nav class="navbar navbar-static-top">
-		      <a href="#" class="sidebar-toggle" data-toggle="push-menu" role="button">
-		        <span class="sr-only">Toggle navigation</span>
-		      </a>
-		    </nav>
-		  </header>
-		  
-		  <aside class="main-sidebar">
-		    
-		    <section class="sidebar">
+            .skin-blue .wrapper, .skin-blue .main-sidebar, .skin-blue .left-side {
+                background-color: #008d43;
+            }
+        </style>
+    </head>
 
-		      
-		      <ul class="sidebar-menu">
-				<li class="treeview">
-					<a href="/">
-						<i class="fa fa-dashboard"></i> <span>Principal</span>
-					</a>
-				</li>
-		      </ul>
-		       <ul class="sidebar-menu">
-				<li class="treeview">
-					<a href="{{url('/parceiros')}}">
-						<i class="fa fa-dashboard"></i> <span>Parceiros</span>
-					</a>
-				</li>
-		      </ul>
-		    </section>
-		    
-		  </aside>
+    <body class="hold-transition skin-blue sidebar-mini">
+        <div class="wrapper">
 
-		  
-		  <div class="content-wrapper">
-		    
-		    <section class="content-header">
-		      @yield('titulomenor')
-		    </section>
+            <header class="main-header">
 
-		    
-		    <section class="content">
-		      <div class="row">
-		        <section class="col-md-12">
-					@yield('content')
-		        </section>
-		      </div>
-		    </section>
-		    
-		  </div>
+                <a href="{{ url('/') }}" class="logo">
+                    <span class="logo-lg"><b>Economia</b>PARANÁ</span>
+                </a>
 
+                <nav class="navbar navbar-static-top">
+                    <a href="#" class="sidebar-toggle" data-toggle="push-menu" role="button">
+                        <span class="sr-only">Toggle navigation</span>
+                    </a>
+                </nav>
+            </header>
 
-		  	@yield('valortotal')
+            <aside class="main-sidebar">
 
+                <section class="sidebar">
 
-		</div>
+                    <ul class="sidebar-menu">
+                        <li class="treeview">
+                            <a href="/">
+                                <i class="fa fa-dashboard"></i> <span>Principal</span>
+                            </a>
+                        </li>
+                    </ul>
+                    <ul class="sidebar-menu">
+                        <li class="treeview">
+                            <a href="{{url('/parceiros')}}">
+                                <i class="fa fa-dashboard"></i> <span>Parceiros</span>
+                            </a>
+                        </li>
+                    </ul>
+                </section>
 
+            </aside>
 
-		
-	</body>
+            <div class="content-wrapper" style="background: #008d43;">
+
+                <section class="content-header">
+                    @yield('titulomenor')
+                </section>
+                @yield('valortotal')
+
+                <section class="content">
+                    <div class="row">
+                        <section class="col-md-12">
+                            @yield('content')
+                        </section>
+                    </div>
+                </section>
+
+            </div>
+
+        </div>
+
+        @yield('fim-pagina')
+    </body>
 
 </html>
