@@ -60,7 +60,7 @@
 		      </ul>
 		       <ul class="sidebar-menu" data-widget="tree">
 				<li class="treeview">
-					<a href="#">
+					<a href="{{url('/empresas')}}">
 						<i class="fa fa-dashboard"></i> <span>Empresas</span>
 					</a>
 				</li>
