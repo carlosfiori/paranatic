@@ -28,9 +28,10 @@
                     var onFailSoHard = function (e) {
                         console.log('Reeeejected!', e);
                     };
-
+                    console.log(MediaStreamTrack.getSources);
                     // Not showing vendor prefixes.
-                    navigator.getUserMedia({video: true, audio: true}, function (localMediaStream) {
+                    navigator.getUserMedia({video: true, audio: false}, function (localMediaStream) {
+                        console.log(localMediaStream);
                         var video = document.querySelector('video');
                         video.src = window.URL.createObjectURL(localMediaStream);
 

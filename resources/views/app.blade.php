@@ -44,7 +44,7 @@
                 background-color: #00a65a;
             }
 
-            .skin-blue .main-header .navbar .sidebar-toggle:hover{
+            .skin-blue .main-header .navbar .sidebar-toggle:hover {
                 background-color: #00a65a;
             }
 
@@ -64,7 +64,7 @@
 
             <header class="main-header">
 
-                <a href="{{ url('/') }}" class="logo">
+                <a href="{{ url('/system/') }}" class="logo">
                     <span class="logo-lg"><b>Economia</b>PARANÁ</span>
                 </a>
 
@@ -88,8 +88,24 @@
                     </ul>
                     <ul class="sidebar-menu">
                         <li class="treeview">
-                            <a href="{{url('/parceiros')}}">
-                                <i class="fa fa-dashboard"></i> <span>Parceiros</span>
+                            <a href="{{url('/system/parceiros')}}">
+                                <i class="fa fa-handshake-o"></i> <span>Parceiros</span>
+                            </a>
+                        </li>
+                    </ul>
+
+                    <ul class="sidebar-menu">
+                        <li class="treeview">
+                            <a href="{{url('/system/extrato')}}">
+                                <i class="fa fa-history"></i> <span>Extrato</span>
+                            </a>
+                        </li>
+                    </ul>
+
+                    <ul class="sidebar-menu">
+                        <li class="treeview">
+                            <a href="{{url('/system/economias')}}">
+                                <i class="fa fa-money"></i> <span>Economias</span>
                             </a>
                         </li>
                     </ul>
@@ -105,11 +121,7 @@
                 @yield('valortotal')
 
                 <section class="content">
-                    {{--<div class="row">--}}
-                        {{--<section class="col-md-12">--}}
-                            @yield('content')
-                        {{--</section>--}}
-                    {{--</div>--}}
+                    @yield('content')
                 </section>
 
             </div>

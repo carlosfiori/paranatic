@@ -43,39 +43,35 @@
                 <div id="faq-cat-1-sub-1" class="panel-collapse collapse">
                     <div class="panel-body">
                         <div class="row form-group">
-                            <div class="col-xs-11">Saldo anterior</div>
-                            <div class="col-xs-1">
+                            <div class="col-xs-12">Saldo anterior
                                 <span class="pull-right badge neutro">
-                                300
-                                <i class="fa fa-bolt" style="color: #FFEB3B;"></i>
-                            </span>
+                                    300
+                                    <i class="fa fa-bolt" style="color: #FFEB3B;"></i>
+                                </span>
                             </div>
                         </div>
                         <div class="row form-group">
-                            <div class="col-xs-11">Burger King (03/01/17)</div>
-                            <div class="col-xs-1">
+                            <div class="col-xs-12">Burger King (03/01/17)
                                 <span class="pull-right badge red">
-                                -80
-                                <i class="fa fa-bolt" style="color: #FFEB3B;"></i>
-                            </span>
+                                    -80
+                                    <i class="fa fa-bolt" style="color: #FFEB3B;"></i>
+                                </span>
                             </div>
                         </div>
                         <div class="row form-group">
-                            <div class="col-xs-11">TCCC (10/01/17)</div>
-                            <div class="col-xs-1">
+                            <div class="col-xs-12">TCCC (10/01/17)
                                 <span class="pull-right badge red">
-                                -20
-                                <i class="fa fa-bolt" style="color: #FFEB3B;"></i>
-                            </span>
+                                    -20
+                                    <i class="fa fa-bolt" style="color: #FFEB3B;"></i>
+                                </span>
                             </div>
                         </div>
                         <div class="row form-group">
-                            <div class="col-xs-11">Bonus economia</div>
-                            <div class="col-xs-1">
+                            <div class="col-xs-12">Bonus economia
                                 <span class="pull-right badge">
-                                +50
-                                <i class="fa fa-bolt" style="color: #FFEB3B;"></i>
-                            </span>
+                                    +50
+                                    <i class="fa fa-bolt" style="color: #FFEB3B;"></i>
+                                </span>
                             </div>
                         </div>
                     </div>
@@ -97,39 +93,35 @@
                 <div id="faq-cat-2-sub-1" class="panel-collapse collapse">
                     <div class="panel-body">
                         <div class="row form-group">
-                            <div class="col-xs-11">Saldo anterior</div>
-                            <div class="col-xs-1">
+                            <div class="col-xs-12">Saldo anterior
                                 <span class="pull-right badge neutro">
-                                250
-                                <i class="fa fa-bolt" style="color: #FFEB3B;"></i>
-                            </span>
+                                    250
+                                    <i class="fa fa-bolt" style="color: #FFEB3B;"></i>
+                                </span>
                             </div>
                         </div>
                         <div class="row form-group">
-                            <div class="col-xs-11">Burger King (11/02/17)</div>
-                            <div class="col-xs-1">
+                            <div class="col-xs-12">Burger King (11/02/17)
                                 <span class="pull-right badge red">
-                                -80
-                                <i class="fa fa-bolt" style="color: #FFEB3B;"></i>
-                            </span>
+                                    -80
+                                    <i class="fa fa-bolt" style="color: #FFEB3B;"></i>
+                                </span>
                             </div>
                         </div>
                         <div class="row form-group">
-                            <div class="col-xs-11">TCCC (22/02/17)</div>
-                            <div class="col-xs-1">
+                            <div class="col-xs-12">TCCC (22/02/17)
                                 <span class="pull-right badge red">
-                                -20
-                                <i class="fa fa-bolt" style="color: #FFEB3B;"></i>
-                            </span>
+                                    -20
+                                    <i class="fa fa-bolt" style="color: #FFEB3B;"></i>
+                                </span>
                             </div>
                         </div>
                         <div class="row form-group">
-                            <div class="col-xs-11">ParanaTic (37/02/17)</div>
-                            <div class="col-xs-1">
+                            <div class="col-xs-12">ParanaTic (37/02/17)
                                 <span class="pull-right badge red">
-                                -50
-                                <i class="fa fa-bolt" style="color: #FFEB3B;"></i>
-                            </span>
+                                    -50
+                                    <i class="fa fa-bolt" style="color: #FFEB3B;"></i>
+                                </span>
                             </div>
                         </div>
                     </div>
