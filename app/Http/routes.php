@@ -17,4 +17,4 @@
 Route::get('/', 'PrincipalController@index');
 
 
-Route::get('/empresas', 'EmpresasController@index');
+Route::get('/parceiros', 'EmpresasController@index');

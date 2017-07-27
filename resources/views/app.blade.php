@@ -53,15 +53,15 @@
 		      
 		      <ul class="sidebar-menu">
 				<li class="treeview">
-					<a href="#">
+					<a href="/">
 						<i class="fa fa-dashboard"></i> <span>Principal</span>
 					</a>
 				</li>
 		      </ul>
 		       <ul class="sidebar-menu">
 				<li class="treeview">
-					<a href="{{url('/empresas')}}">
-						<i href="{{url('/empresas')}}" class="fa fa-dashboard"></i> <span>Empresas</span>
+					<a href="{{url('/parceiros')}}">
+						<i class="fa fa-dashboard"></i> <span>Parceiros</span>
 					</a>
 				</li>
 		      </ul>
