@@ -1,0 +1,41 @@
+<ion-view view-title="Meu Perfil">
+    <ion-content ng-class="{expanded:$scope.isExpanded}">
+        <div class="hero slide-up" style="background-image: url('img/perfil_background.jpg')">
+            <div class="content">
+                <div class="avatar" style="background-image: url('img/daenerys.jpg');"></div>
+                <h3><a class="white">Daenerys Targaryen</a></h3>
+            </div>
+        </div>
+        <h4 class="content padding double-padding-x">Meus Dados</h4>
+        <div class="list animate-fade-slide-in-right">
+            <label class="item item-input item-floating-label">
+                <span class="input-label">Nome</span>
+                <input type="text" placeholder="Nome" ng-model="perfil.nome">
+            </label>
+            <label class="item item-input item-floating-label">
+                <span class="input-label">E-mail</span>
+                <input type="text" placeholder="E-mail" ng-model="perfil.email">
+            </label>
+            <label class="item item-input item-floating-label">
+                <span class="input-label">Telefone</span>
+                <input type="text" placeholder="Telefone" ng-model="perfil.telefoneContato">
+            </label>
+            <label class="item item-input item-floating-label">
+                <span class="input-label">Senha</span>
+                <input type="password" placeholder="Senha" ng-model="perfil.senha">
+            </label>
+            <div class="info-privado">
+                <input type="checkbox" value="privado" id="email">
+                <label for="email">Manter email privado</label>
+                <br>
+                <input type="checkbox" value="privado" id="telefone">
+                <label for="telefone">Manter telefone privado</label>
+            </div> 
+            <div class="salvar">
+                <button class="button button-balanced">
+                    Salvar
+                </button>
+            </div>       
+        </div>
+    </ion-content>
+</ion-view>
