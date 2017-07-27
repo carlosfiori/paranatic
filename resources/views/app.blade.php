@@ -36,9 +36,6 @@
 		  <header class="main-header">
 		    
 		    <a href="{{ url('/') }}" class="logo">
-		      
-		      <span class="logo-mini"><b>A</b>LT</span>
-		      
 		      <span class="logo-lg"><b>Admin</b>LTE</span>
 		    </a>
 		    
@@ -55,20 +52,18 @@
 
 		      
 		      <ul class="sidebar-menu" data-widget="tree">
-		        <li class="header">MAIN NAVIGATION</li>
-
-
 				<li class="treeview">
 					<a href="#">
-						<i class="fa fa-dashboard"></i> <span>Apontamentos</span>
-						<span class="pull-right-container">
-							<i class="fa fa-angle-left pull-right"></i>
-						</span>
+						<i class="fa fa-dashboard"></i> <span>Principal</span>
 					</a>
-					
 				</li>
-
-				
+		      </ul>
+		       <ul class="sidebar-menu" data-widget="tree">
+				<li class="treeview">
+					<a href="#">
+						<i class="fa fa-dashboard"></i> <span>Empresas</span>
+					</a>
+				</li>
 		      </ul>
 		    </section>
 		    
@@ -92,8 +87,11 @@
 		    
 		  </div>
 
-		</div>
 
+		  	@yield('valortotal')
+
+
+		</div>
 
 
 		
