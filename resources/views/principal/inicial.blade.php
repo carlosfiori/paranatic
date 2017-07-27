@@ -59,7 +59,7 @@
             text-align: center;
             font-size: 3em;
             position: absolute;
-            bottom: 0;
+            bottom: 3%;
         }
     </style>
 

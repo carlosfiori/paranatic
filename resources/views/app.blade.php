@@ -44,8 +44,12 @@
                 background-color: #00a65a;
             }
 
+            .skin-blue .main-header .navbar .sidebar-toggle:hover{
+                background-color: #00a65a;
+            }
+
             .skin-blue .wrapper, .skin-blue .main-sidebar, .skin-blue .left-side {
-                background-color: #008d43;
+                /*background-color: #008d43;*/
             }
         </style>
     </head>
