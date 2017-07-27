@@ -12,26 +12,31 @@
 
 
 @section('valortotal')
-    <footer class="main-footer" style="text-align: center; padding: 0;background-color: #C8E6C9">
-        <div>
-            <span style="font-size: 1.6em;">SALDO</span>
-            <br>
-            <span style="font-size: 2.5em;font-weight: bold">
-        <b>R$</b> 300
-        </span>
+    <div class="row">
+        <div class="col-xs-12">
+            <footer class="main-footer" style="text-align: center; padding: 0;background-color: #C8E6C9;margin-left: 0">
+                <div>
+                    <span style="font-size: 1.6em;">SALDO</span>
+                    <br>
+                    <span style="font-size: 2.5em;font-weight: bold">
+                    <b>R$</b> 300
+                    </span>
+                </div>
+                <hr style="margin: 0 0 5px;">
+                <div class="flex-saldo">
+                    <div>
+                        <a href="/system/extrato">
+                            <i class="fa fa-history" aria-hidden="true"></i>
+                            EXTRATO</a>
+                    </div>
+                    <div>
+                        <a href="/system/economias"><i class="fa fa-money" aria-hidden="true"></i> ECONOMIAS</a>
+                    </div>
+                </div>
+            </footer>
         </div>
-        <hr style="margin: 0 0 5px;">
-        <div class="flex-saldo">
-            <div>
-                <a href="/system/extrato">
-                    <i class="fa fa-history" aria-hidden="true"></i>
-                    EXTRATO</a>
-            </div>
-            <div>
-                <a href="/system/economias"><i class="fa fa-money" aria-hidden="true"></i> ECONOMIAS</a>
-            </div>
-        </div>
-    </footer>
+    </div>
+
 @endsection
 
 @section('content')

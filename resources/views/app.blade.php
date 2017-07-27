@@ -56,6 +56,7 @@
                 padding: 0;
 
             }
+
         </style>
     </head>
 
@@ -81,7 +82,7 @@
 
                     <ul class="sidebar-menu">
                         <li class="treeview">
-                            <a href="/">
+                            <a href="/system/">
                                 <i class="fa fa-dashboard"></i> <span>Principal</span>
                             </a>
                         </li>

@@ -20,7 +20,7 @@
     <div class="titulo">
         <span>Total economizado este ano: <b>R$ 105,00</b></span>
     </div>
-    <div style="overflow-y: scroll">
+    <div style="overflow-y: scroll; text-align: center; overflow-x: hidden">
         <img src="/images/relatorio-geral.PNG" alt="Relatorio">
     </div>
 
