@@ -28,4 +28,5 @@ Route::group(['prefix' => 'system'], function () {
 
     Route::get('/extrato', 'ExtratoController@index');
     Route::get('/economias', 'RelatoriosController@index');
+    Route::get('/bonus', 'BonusController@index');
 });

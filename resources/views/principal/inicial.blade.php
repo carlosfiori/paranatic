@@ -19,7 +19,9 @@
                     <span style="font-size: 1.6em;">SALDO</span>
                     <br>
                     <span style="font-size: 2.5em;font-weight: bold">
-                    <b>R$</b> 300
+                    <b>
+                        <i class="fa fa-bolt " style="color: #FFEB3B;"></i>
+                    </b> 300
                     </span>
                 </div>
                 <hr style="margin: 0 0 5px;">

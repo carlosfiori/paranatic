@@ -57,6 +57,10 @@
 
             }
 
+            .skin-blue .wrapper, .skin-blue .main-sidebar, .skin-blue .left-side {
+                background-color: #00a65a;
+            }
+
         </style>
     </head>
 
@@ -107,6 +111,13 @@
                         <li class="treeview">
                             <a href="{{url('/system/economias')}}">
                                 <i class="fa fa-money"></i> <span>Economias</span>
+                            </a>
+                        </li>
+                    </ul>
+                    <ul class="sidebar-menu">
+                        <li class="treeview">
+                            <a href="{{url('/system/bonus')}}">
+                                <i class="fa fa-gift"></i> <span>Sorteios e Bônus</span>
                             </a>
                         </li>
                     </ul>
